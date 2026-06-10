@@ -46,7 +46,7 @@ LSTM_SKAB_AnomalyDetection/
 ├── LSTM_Anomaly_Detection_Tutorial.ipynb   ← Main notebook (run this)
 ├── README.md                                ← This file
 ├── LICENSE                                  ← MIT Licence
-│
+├── requirements.txt                          ← Requirement Fule
 ├── Teaching Machines to Notice the Unexpected    ← PDF tutorial (<2000 words)
 │                 
 
