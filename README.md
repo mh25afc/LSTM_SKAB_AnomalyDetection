@@ -78,7 +78,7 @@ LSTM_SKAB_AnomalyDetection/
         └── ...
 ```
 
-**Alternative — Kaggle API:**
+**Alternative : Kaggle API:**
 ```bash
 pip install kaggle
 kaggle datasets download -d yuriykatser/skoltech-anomaly-benchmark-skab
@@ -105,14 +105,14 @@ unzip skoltech-anomaly-benchmark-skab.zip -d skab_data
 - Python 3.8 or higher
 - pip
 
-### Step 1 — Clone the repository
+### Step 1: Clone the repository
 
 ```bash
 git clone https://github.com/mh25afc/LSTM_SKAB_AnomalyDetection.git
 cd LSTM_SKAB_AnomalyDetection
 ```
 
-### Step 2 — Install dependencies
+### Step 2: Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -129,11 +129,11 @@ pip install matplotlib>=3.6.0
 pip install seaborn>=0.12.0
 ```
 
-### Step 3 — Download the dataset
+### Step 3: Download the dataset
 
 Follow the dataset download instructions above and place `skab_data/` in the root directory.
 
-### Step 4 — Launch Jupyter
+### Step 4 : Launch Jupyter
 
 ```bash
 jupyter notebook LSTM_Anomaly_Detection_Tutorial.ipynb
