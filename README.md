@@ -11,7 +11,7 @@
 
 ## Overview
 
-This tutorial demonstrates how LSTM networks learn what **normal** industrial sensor behaviour looks like over time — and then use **prediction error** as an anomaly signal when something goes wrong.
+This tutorial demonstrates how LSTM networks learn what **normal** industrial sensor behaviour looks like over time and then use **prediction error** as an anomaly signal when something goes wrong.
 
 Applied to the SKAB water pump benchmark (8 real sensor channels, 35 labelled fault experiments), the pipeline achieves:
 
@@ -21,7 +21,7 @@ Applied to the SKAB water pump benchmark (8 real sensor channels, 35 labelled fa
 | Recall | 0.387 |
 | F1-Score | 0.425 |
 
-The tutorial teaches not just how to build an LSTM anomaly detector, but **how to read its failures** — specifically why it misses gradual fault onset, and how to tune the threshold for a specific risk tolerance.
+The tutorial teaches not just how to build an LSTM anomaly detector, but **how to read its failures** specifically why it misses gradual fault onset, and how to tune the threshold for a specific risk tolerance.
 
 ---
 
@@ -33,7 +33,7 @@ The tutorial teaches not just how to build an LSTM anomaly detector, but **how t
 - Setting a **statistical threshold** (μ + k·σ) without data leakage
 - Evaluating with **Precision, Recall, and F1-Score**
 - **Per-sensor error decomposition** for fault diagnosis
-- **Threshold sensitivity analysis** — the precision-recall tradeoff
+- **Threshold sensitivity analysis** the precision-recall tradeoff
 - **Ethical implications** of automated industrial fault detection
 
 ---
@@ -93,7 +93,7 @@ unzip skoltech-anomaly-benchmark-skab.zip -d skab_data
 | Experiment files | 35 individual CSV files |
 | Sampling rate | 1 reading per second |
 | Sensor channels | 8 (accelerometers x2, current, pressure, temperature, thermocouple, voltage, flow rate) |
-| Anomaly label | `anomaly` column — 0 = normal, 1 = anomaly |
+| Anomaly label | `anomaly` column 0 = normal, 1 = anomaly |
 | Anomaly types | Point anomalies and collective (sustained) anomalies |
 
 ---
