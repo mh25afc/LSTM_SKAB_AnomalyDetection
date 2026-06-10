@@ -3,7 +3,7 @@
 
 **Course:** Machine Learning and Neural Networks  
 **Author:** Ameer Hamza  
-**Dataset:** SKAB — Skoltech Anomaly Benchmark v0.9 (Katser & Kozitsin, 2020)  
+**Dataset:** SKAB Skoltech Anomaly Benchmark v0.9 (Katser & Kozitsin, 2020)  
 **Technique:** Long Short-Term Memory (LSTM) Neural Network  
 **Task:** Time-Series Anomaly Detection via Prediction Error Thresholding  
 
